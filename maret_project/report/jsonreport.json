@@ -1,0 +1,180 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-20T10:57:44.141Z",
+        "line": 18,
+        "name": "Signup with credential",
+        "description": "",
+        "id": "signup-as-a-user--i-want-to-be-able-to-signup-for-the-site-so-that-i-can-access-the-site-s-features.;signup-with-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10586105700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the Signup page",
+            "match": {
+              "location": "stepDefinitions.maret_login.i_am_on_the_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2208839900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter a FirstName \"Vasanth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasanth\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.maret_login.i_enter_a_first_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2168607900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter a Last Name \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.maret_login.i_enter_a_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2152863900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the DOB",
+            "match": {
+              "location": "stepDefinitions.maret_login.i_enter_the_dob()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2124363700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am able to pick the gender",
+            "match": {
+              "location": "stepDefinitions.maret_login.i_am_able_to_pick_the_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2260914900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the Citizenship",
+            "match": {
+              "location": "stepDefinitions.maret_login.i_enter_the_citizenship()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2204047700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the Current Location",
+            "match": {
+              "location": "stepDefinitions.maret_login.i_enter_the_current_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2212509200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the Mobile Number \"9988776655\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9988776655\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.maret_login.i_enter_the_mobile_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2122479400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the Valid Email \"mayilol394@hrisland.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mayilol394@hrisland.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.maret_login.i_enter_the_valid_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2988824600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am able to enter the create account button",
+            "match": {
+              "location": "stepDefinitions.maret_login.i_am_able_to_enter_the_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1982000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be redirected to the dashboard page",
+            "match": {
+              "location": "stepDefinitions.maret_login.i_should_be_redirected_to_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Signup As a user, I want to be able to signup for the site so that I can access the site\u0027s features.",
+    "description": "",
+    "id": "signup-as-a-user--i-want-to-be-able-to-signup-for-the-site-so-that-i-can-access-the-site-s-features.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/maret_login.feature",
+    "tags": []
+  }
+]
